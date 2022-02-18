@@ -1,5 +1,4 @@
 import time
-import math
 import os
 from selenium import webdriver
 
@@ -33,5 +32,5 @@ try:
     btn.click()
 
 finally:
-    time.sleep(10000)
+    time.sleep(5)
     browser.quit()
