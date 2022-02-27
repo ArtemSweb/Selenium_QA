@@ -9,7 +9,6 @@ def test_find_button_add_to_basket(browser):
 #можно поспать
     time.sleep(3)
 #Найдем кнопку по селектору класс
-    btn_add = browser.find_element_by_css_selector(".btn-add-to-baset")
+    btn_add = browser.find_element_by_css_selector(".btn-add-to-basket")
 #Проверим, что кнопка существует``
-    assert btn_add, 'Кнопки не существует на странице'
-    
+    assert btn_add == True, 'Кнопки не существует на странице'
