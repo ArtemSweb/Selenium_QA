@@ -1,3 +1,7 @@
 # игнорим все!
 
-section_3/
+section_3/3.4/stepik_selenium_3-4-3.py
+
+.pytest_cache
+
+__pycache__/
